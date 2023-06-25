@@ -1,4 +1,11 @@
 package com.devcolibri.secure.entity.enums;
 
-public class UserRoleEnum {
+public enum UserRoleEnum {
+
+    ADMIN,
+    USER,
+    ANONYMOUS;
+
+    UserRoleEnum() {
+    }
 }
